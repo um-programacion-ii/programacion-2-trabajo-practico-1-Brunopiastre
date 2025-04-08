@@ -1,5 +1,4 @@
-package vehiculos;
-
+// Clase Auto que extiende Vehiculo
 public class Auto extends Vehiculo {
     private int cantidadPasajeros;
 
@@ -13,12 +12,5 @@ public class Auto extends Vehiculo {
 
     public int getCantidadPasajeros() {
         return cantidadPasajeros;
-    }
-
-    public void setCantidadPasajeros(int cantidadPasajeros) {
-        if (cantidadPasajeros <= 0) {
-            throw new IllegalArgumentException("La cantidad de pasajeros debe ser mayor a 0.");
-        }
-        this.cantidadPasajeros = cantidadPasajeros;
     }
 }

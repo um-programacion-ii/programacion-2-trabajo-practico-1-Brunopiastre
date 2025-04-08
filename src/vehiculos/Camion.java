@@ -1,7 +1,4 @@
-package vehiculos;
-
-import vehiculos.Vehiculo;
-
+// Clase Camion que extiende Vehiculo
 public class Camion extends Vehiculo {
     private boolean tieneAcoplado;
 
@@ -10,11 +7,7 @@ public class Camion extends Vehiculo {
         this.tieneAcoplado = tieneAcoplado;
     }
 
-    public boolean isTieneAcoplado() {
+    public boolean tieneAcoplado() {
         return tieneAcoplado;
-    }
-
-    public void setTieneAcoplado(boolean tieneAcoplado) {
-        this.tieneAcoplado = tieneAcoplado;
     }
 }
