@@ -1,6 +1,59 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-JQrLgaz)
 # 🧠 Trabajo Práctico: Sistema de Gestión de Vehículos (Java + SOLID + GitHub)
 
+# Sistema de Gestión de Vehículos 🚗
+
+## 🧑‍💻 Autor
+
+**Nombre y Apellido:** [Bruno Piastrellini]
+
+---
+
+## 🎯 Descripción
+
+Esta aplicación Java permite gestionar una flota de vehículos de una empresa, utilizando los principios de la programación orientada a objetos y los principios SOLID (SRP, OCP y LSP). Se pueden agregar diferentes tipos de vehículos y mostrarlos dinámicamente gracias al uso de `ArrayList`.
+
+---
+
+## 🛠 Tecnologías utilizadas
+
+- Java SE 8+
+- Git & GitHub
+- GitHub Projects, Issues y Pull Requests
+
+---
+
+## 🧱 Estructura del proyecto
+
+- `Vehiculo`: clase base con atributos comunes
+- `Camion`: subclase con campo adicional `tieneAcoplado`
+- `Auto`: subclase con campo `cantidadPasajeros`
+- `VehiculoPrinter`: clase encargada de imprimir la información
+- `Main`: clase principal, con ejemplo de uso y búsqueda por patente
+
+---
+
+## 🧪 Requisitos Previos
+
+- JDK 8 o superior
+- IDE como IntelliJ IDEA, Eclipse o VSCode con soporte Java
+- Git instalado y configurado
+
+---
+
+## 🚀 Instrucciones para Compilar y Ejecutar
+
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/sistema-vehiculos.git
+   cd sistema-vehiculos
+2. Compilar los archivos .java: 
+    ```bash
+    javac *.java
+3. Ejecutar el programa:
+    ```bash
+      java Main
+
 ## 📌 Objetivo General
 
 Desarrollar una aplicación en Java para gestionar vehículos de una empresa, aplicando los principios de programación orientada a objetos y los **primeros tres principios SOLID**:  
