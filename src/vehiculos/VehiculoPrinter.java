@@ -10,6 +10,9 @@ public class VehiculoPrinter {
         if (vehiculo instanceof Camion) {
             Camion camion = (Camion) vehiculo;
             System.out.println("Tiene acoplado: " + (camion.isTieneAcoplado() ? "Sí" : "No"));
+        } else if (vehiculo instanceof Auto) {
+            Auto auto = (Auto) vehiculo;
+            System.out.println("Cantidad de pasajeros: " + auto.getCantidadPasajeros());
         }
     }
 }

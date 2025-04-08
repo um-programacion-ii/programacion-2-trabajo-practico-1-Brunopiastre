@@ -1,12 +1,12 @@
 import vehiculos.Vehiculo;
 import vehiculos.Camion;
+import vehiculos.Auto;
 import vehiculos.VehiculoPrinter;
-
 
 public class Main {
     public static void main(String[] args) {
         // Crear vehículos
-        Vehiculo auto = new Vehiculo("ABC123", "Toyota", 2015, 500);
+        Vehiculo auto = new Auto("ABC123", "Toyota", 2015, 500, 5);
         Camion camion = new Camion("XYZ456", "Volvo", 2018, 15000, true);
 
         // Crear el objeto para imprimir
