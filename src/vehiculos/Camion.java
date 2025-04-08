@@ -1,3 +1,7 @@
+package vehiculos;
+
+import vehiculos.Vehiculo;
+
 public class Camion extends Vehiculo {
     private boolean tieneAcoplado;
 

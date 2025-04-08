@@ -1,3 +1,5 @@
+package vehiculos;
+
 public class VehiculoPrinter {
     public void imprimir(Vehiculo vehiculo) {
         System.out.println("Patente: " + vehiculo.getPatente());
